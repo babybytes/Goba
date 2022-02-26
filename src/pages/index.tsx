@@ -1,14 +1,18 @@
-import type { NextPage } from 'next'
-import Landing from '../components/Landing'
+
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 
 
-
-const Home: NextPage = () => {
+const Home = () => {
   return (
-    <div className="  w-screen h-screen flex flex-col">
-      <Header />
-      <Landing />
+    <div className="  w-screen h-screen flex flex-col bg-gradient-to-r from-bg via-neutral-900 to-black">
+      <div className="flex">
+        <Header />
+      </div>
+      <div className="flex">
+        <Footer />
+      </div>
+      
     </div>
   )
 }

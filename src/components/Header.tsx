@@ -49,7 +49,7 @@ const Header = () => {
 	}
 
 	return(
-	<div className="w-full fixed ">
+	<div className="w-full  ">
 		<div className=" flex  w-full pt-10 justify-start space-x-[40%] items-center">
 			<motion.svg width="60" height="40"  fill="none" xmlns="http://www.w3.org/2000/svg"
 				variants={svgV}

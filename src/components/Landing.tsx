@@ -7,7 +7,7 @@ const Landing = () => {
 
 	return(
 		<div className="w-full h-screen ">
-			<div className="  w-full h-screen bg-gradient-to-r from-bg via-neutral-900 to-black pt-[5%] font-zen ">
+			<div className="  w-full h-screen  pt-[5%] font-zen ">
 				<div className="  flex  justify-around h-[95%]">
 					<div className="text-pinky px-10 w-[55%] flex flex-col pt-[5%]">
 						<div className="absolute px-[14%] -mt-5 ">
