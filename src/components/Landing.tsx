@@ -1,9 +1,7 @@
 import React from 'react';
 import { motion } from "framer-motion"
- 
- 
+
 const Landing = () => {
- 
 	const Dad ={
 		initial: {
 			y: -850,
@@ -27,7 +25,6 @@ const Landing = () => {
   		},
  
 	}
- 
 	const Svg = {
 		initial: {
 			x: 0,
@@ -55,9 +52,6 @@ const Landing = () => {
 			},
 		},
 	};
- 
- 
- 
 	return(
 		<div className="w-full h-full">
 			<div className="w-full h-full text-pinky   font-zen flex ">
@@ -76,7 +70,7 @@ const Landing = () => {
 				</div>
 			</div>
 			<div className=" -mt-[7%] ml-[45%]">
-				<button className=" bg-para w-[10rem]  font-zen  h-[3rem] text-pinky">		
+				<button   className=" bg-para w-[10rem]  font-zen  h-[3rem] text-pinky">		
 					OPEN
 				</button>
 			</div>
@@ -111,5 +105,4 @@ const Landing = () => {
 			</motion.div>
 		</div>
 )};
- 
 export default Landing;
