@@ -1,10 +1,63 @@
 import React from 'react';
 import { motion } from "framer-motion"
-
-
+ 
+ 
 const Landing = () => {
-	
-
+ 
+	const Dad ={
+		initial: {
+			y: -850,
+		},
+		animate: {
+			y: 0,
+			transition: {
+ 
+			  	duration: 0.4,
+			  	type: "spring",
+			},
+		},
+	};
+	const Mom ={
+		initial: {},
+  		animate: {
+    			transition: {
+      				delayChildren: 1,
+      				staggerChildren: 0.5,
+    			},
+  		},
+ 
+	}
+ 
+	const Svg = {
+		initial: {
+			x: 0,
+		},
+		animate: {
+			x: [20, 0, 20],
+			transition: {
+			  duration: 5,
+			  ease: "linear",
+			  repeat: Infinity,
+			},
+		},
+	};
+	const Svg4 = {
+		initial: {
+			y: 0,
+		},
+		animate: {
+			y: [20, 0, 20],
+			transition: {
+ 
+			  duration: 3,
+			  ease: "linear",
+			  repeat: Infinity,
+			},
+		},
+	};
+ 
+ 
+ 
 	return(
 		<div className="w-full h-full">
 			<div className="w-full h-full text-pinky   font-zen flex ">
@@ -27,18 +80,36 @@ const Landing = () => {
 					OPEN
 				</button>
 			</div>
-			<div className="absolute top-0 ">
-				<img src="/images/v1.png" className="w-[1rem] ml-[78rem] mt-[5.5rem]"/>
-				<img src="/images/e1.png" className="w-[2rem] ml-[22em] mt-[2rem]  "/>
-				<img src="/images/e2.png" className="w-[2rem]  ml-[55rem] pt-[5rem] "/>
-				<img src="/images/donut.png" className="w-[39rem] ml-[15rem] -mt-[11rem]"/>
-				<img src="/images/e1.png" className="w-[2rem]  ml-[85rem] -mt-[18rem] "/>
-				<img src="/images/triangle.png" className="w-[26rem] ml-[80rem] -mt-[2rem]"/>
-				<img src="/images/e3.png" className="w-[2rem] ml-[8rem] -mt-[10rem]"/>
-				<img src="/images/e2.png" className="w-[2rem] ml-[105rem] -mt-[2rem]"/>
-				<img src="/images/e3.png" className="w-[2rem] ml-[90rem] mt-[5rem]"/>
-			</div>
+			<motion.div variants={Mom} initial="initial" animate="animate" className="absolute top-0 ">
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg} src="/images/v1.png" className="w-[1rem] ml-[78rem] mt-[5.5rem]"/>
+				</motion.div>
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg}   src="/images/e1.png" className="w-[2rem] ml-[22em] mt-[2rem]  "/>
+				</motion.div>
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg}  src="/images/e2.png" className="w-[2rem]  ml-[55rem] pt-[5rem] "/>
+				</motion.div>
+ 
+				<motion.img variants={Svg} src="/images/donut.png" className="w-[39rem] ml-[13rem] -mt-[11rem]"/>
+ 
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg} src="/images/e1.png" className="w-[2rem]  ml-[85rem] -mt-[18rem] "/>
+				</motion.div>
+ 
+				<motion.img variants={Svg4}  src="/images/triangle.png" className="w-[26rem] ml-[80rem] -mt-[2rem]"/>
+ 
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg}  src="/images/e3.png" className="w-[2rem] ml-[8rem] -mt-[10rem]"/>
+				</motion.div>
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg} src="/images/e2.png" className="w-[2rem] ml-[105rem] -mt-[2rem]"/>
+				</motion.div>
+				<motion.div variants={Dad}>
+					<motion.img variants={Svg} src="/images/e3.png" className="w-[2rem] ml-[90rem] mt-[5rem]"/>
+				</motion.div>
+			</motion.div>
 		</div>
 )};
-  
+ 
 export default Landing;
