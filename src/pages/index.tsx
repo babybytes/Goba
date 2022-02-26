@@ -6,7 +6,7 @@ import Header from '../components/Header'
 
 const Home: NextPage = () => {
   return (
-    <div className="  w-full h-full flex flex-col">
+    <div className="  w-screen h-screen flex flex-col">
       <Header />
       <Landing />
     </div>

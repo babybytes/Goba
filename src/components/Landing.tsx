@@ -6,7 +6,7 @@ const Landing = () => {
 	
 
 	return(
-		<div className="w-full h-full ">
+		<div className="w-full h-screen ">
 			<div className="  w-full h-screen bg-gradient-to-r from-bg via-neutral-900 to-black pt-[5%] font-zen ">
 				<div className="  flex  justify-around h-[95%]">
 					<div className="text-pinky px-10 w-[55%] flex flex-col pt-[5%]">
@@ -19,8 +19,8 @@ const Landing = () => {
 						<div className="absolute px-[5%] mt-[25%]">
 							<img src="/images/e3.png" className="w-[70%]" />
 						</div>
-						<div className="  px-[8%]  absolute">
-							<img src="/images/donut.png" className=" w-[85%]  -mt-[10%]"/>
+						<div className="  px-[8%] w-[100rem] absolute">
+							<img src="/images/donut.png" className="  -mt-[10%]"/>
 						</div>		
 						<div className=" text-[14rem]">
 							The
@@ -45,6 +45,7 @@ const Landing = () => {
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget risus nunc eu gravida. Diam sed elit ultricies rhoncus purus aenean sed. Tincidunt viverra vitae imperdiet accumsan lacus, mattis. Lacus nisi, orci, proin risus, molestie pellentesque ultrices rhoncus. Orci orci ultricies placerat duis amet. Sit vitae gravida in amet nec. Purus ut est viverra diam adipiscing integer eget. Vitae, tellus nec lobortis in lectus tincidunt tempus tellus sed. Eget porttitor porttitor lorem mollis ultrices eget posuere duis.
 							</p>
 						</div>
+					</div>
 						<div className="absolute   -mx-[8%] -mt-4">
 							<img src="/images/v1.png" className="w-[70%]" />
 						</div>
@@ -57,10 +58,9 @@ const Landing = () => {
 						<div className="absolute pt-[38%] -mx-5  ">
 							<img src="/images/e3.png" className="w-[70%]" />
 						</div>
-						<div className="absolute pt-[20%]">
+						<div className="absolute mt-[20%] ">
 							<img src="/images/triangle.png" />
 						</div>
-					</div>
 					
 				</div>
 				<div className=" flex  w-full  justify-around space-x-[60%] ">
