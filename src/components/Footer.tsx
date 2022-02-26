@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const Footer = () => (
-	<div className=" flex  w-full  justify-around space-x-[60%] ">
+	<div className=" flex  w-full  justify-around space-x-[60%] pb-5 ">
 		<div className="text-para  font-zen ">
 			qewrefgrh dfgnhmj dfbgnh sfgh
 		</div>
