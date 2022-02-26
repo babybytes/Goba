@@ -22,16 +22,21 @@ const Landing = () => {
 					</p>
 				</div>
 			</div>
+			<div className=" -mt-[7%] ml-[45%]">
+				<button className=" bg-para w-[10rem]  font-zen  h-[3rem] text-pinky">		
+					OPEN
+				</button>
+			</div>
 			<div className="absolute top-0 ">
-				<img src="/images/donut.png" className="w-[90%] ml-[35%] mt-[15%]"/>
-				<img src="/images/triangle.png" className="w-[60%] ml-[190%] -mt-[40%]"/>
-				<img src="/images/e1.png" className="w-[5%] -mt-[100%] ml-[50%] "/>
-				<img src="/images/e2.png" className="w-[5%] pt-[10%] ml-[130%] "/>
-				<img src="/images/e3.png" className="w-[5%] pt-[55%] ml-[15%] "/>
-				<img src="/images/v1.png" className="w-[2%] -mt-[88%] ml-[183%]"/>
-				<img src="/images/e1.png" className="w-[5%]  "/>
-				<img src="/images/e2.png" className="w-[5%]  "/>
-				<img src="/images/e3.png" className="w-[5%]  "/>
+				<img src="/images/v1.png" className="w-[1rem] ml-[78rem] mt-[5.5rem]"/>
+				<img src="/images/e1.png" className="w-[2rem] ml-[22em] mt-[2rem]  "/>
+				<img src="/images/e2.png" className="w-[2rem]  ml-[55rem] pt-[5rem] "/>
+				<img src="/images/donut.png" className="w-[39rem] ml-[15rem] -mt-[11rem]"/>
+				<img src="/images/e1.png" className="w-[2rem]  ml-[85rem] -mt-[18rem] "/>
+				<img src="/images/triangle.png" className="w-[26rem] ml-[80rem] -mt-[2rem]"/>
+				<img src="/images/e3.png" className="w-[2rem] ml-[8rem] -mt-[10rem]"/>
+				<img src="/images/e2.png" className="w-[2rem] ml-[105rem] -mt-[2rem]"/>
+				<img src="/images/e3.png" className="w-[2rem] ml-[90rem] mt-[5rem]"/>
 			</div>
 		</div>
 )};
